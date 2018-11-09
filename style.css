@@ -39,14 +39,14 @@ h2,
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: purple;
+    color: blue;
 }
 
 h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid greenyellow;
+    border-bottom: 3px solid gray;
 }
 
 h2,
@@ -65,6 +65,19 @@ h3 {
     border-bottom: 2px solid black
 }
 
+#nameArt {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: blue;
+}
 
 nav {
     float: right;
@@ -154,7 +167,7 @@ h3, .sidebar h2 {
      line-height: 20px;
      color: white;
      text-align: center;
-     background: purple;
+     background: gray;
      border-bottom: 0;
  }
 
@@ -189,7 +202,7 @@ textarea{
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
-    border: 1px solid crimson;
+    border: 1px solid gray;
 }
 
 textarea {
@@ -199,9 +212,9 @@ textarea {
 input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: coral;
+    color: blue;
     cursor: pointer;
-    background: mediumvioletred;
+    background: gray;
     border: 0 none;
 }
 
@@ -210,8 +223,8 @@ footer {
     padding: 30px;
     clear: both;
     font-size: 12px;
-    color: lawngreen;
+    color: blue;
     text-align: center;
-    background: black;
-    border-top: 8px solid orange;
+    background: gray;
+    border-top: 8px solid blue;
 }
